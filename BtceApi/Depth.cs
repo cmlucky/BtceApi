@@ -6,7 +6,7 @@ using Newtonsoft.Json.Linq;
 namespace BtcE
 {
 	public class OrderInfo
-	{
+	{ 
 		public decimal Price { get; private set; }
 		public decimal Amount { get; private set; }
 		public static OrderInfo ReadFromJObject(JArray o) {
